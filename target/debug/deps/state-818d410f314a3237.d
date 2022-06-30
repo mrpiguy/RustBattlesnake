@@ -1,0 +1,12 @@
+C:\Users\cgbie\Documents\Projects\Battlesnake\RustBattlesnake\target\debug\deps\state-818d410f314a3237.rmeta: C:\Users\cgbie\.cargo\registry\src\github.com-1ecc6299db9ec823\state-0.5.3\src\lib.rs C:\Users\cgbie\.cargo\registry\src\github.com-1ecc6299db9ec823\state-0.5.3\src\ident_hash.rs C:\Users\cgbie\.cargo\registry\src\github.com-1ecc6299db9ec823\state-0.5.3\src\storage.rs C:\Users\cgbie\.cargo\registry\src\github.com-1ecc6299db9ec823\state-0.5.3\src\init.rs C:\Users\cgbie\.cargo\registry\src\github.com-1ecc6299db9ec823\state-0.5.3\src\shim.rs C:\Users\cgbie\.cargo\registry\src\github.com-1ecc6299db9ec823\state-0.5.3\src\container.rs
+
+C:\Users\cgbie\Documents\Projects\Battlesnake\RustBattlesnake\target\debug\deps\libstate-818d410f314a3237.rlib: C:\Users\cgbie\.cargo\registry\src\github.com-1ecc6299db9ec823\state-0.5.3\src\lib.rs C:\Users\cgbie\.cargo\registry\src\github.com-1ecc6299db9ec823\state-0.5.3\src\ident_hash.rs C:\Users\cgbie\.cargo\registry\src\github.com-1ecc6299db9ec823\state-0.5.3\src\storage.rs C:\Users\cgbie\.cargo\registry\src\github.com-1ecc6299db9ec823\state-0.5.3\src\init.rs C:\Users\cgbie\.cargo\registry\src\github.com-1ecc6299db9ec823\state-0.5.3\src\shim.rs C:\Users\cgbie\.cargo\registry\src\github.com-1ecc6299db9ec823\state-0.5.3\src\container.rs
+
+C:\Users\cgbie\Documents\Projects\Battlesnake\RustBattlesnake\target\debug\deps\state-818d410f314a3237.d: C:\Users\cgbie\.cargo\registry\src\github.com-1ecc6299db9ec823\state-0.5.3\src\lib.rs C:\Users\cgbie\.cargo\registry\src\github.com-1ecc6299db9ec823\state-0.5.3\src\ident_hash.rs C:\Users\cgbie\.cargo\registry\src\github.com-1ecc6299db9ec823\state-0.5.3\src\storage.rs C:\Users\cgbie\.cargo\registry\src\github.com-1ecc6299db9ec823\state-0.5.3\src\init.rs C:\Users\cgbie\.cargo\registry\src\github.com-1ecc6299db9ec823\state-0.5.3\src\shim.rs C:\Users\cgbie\.cargo\registry\src\github.com-1ecc6299db9ec823\state-0.5.3\src\container.rs
+
+C:\Users\cgbie\.cargo\registry\src\github.com-1ecc6299db9ec823\state-0.5.3\src\lib.rs:
+C:\Users\cgbie\.cargo\registry\src\github.com-1ecc6299db9ec823\state-0.5.3\src\ident_hash.rs:
+C:\Users\cgbie\.cargo\registry\src\github.com-1ecc6299db9ec823\state-0.5.3\src\storage.rs:
+C:\Users\cgbie\.cargo\registry\src\github.com-1ecc6299db9ec823\state-0.5.3\src\init.rs:
+C:\Users\cgbie\.cargo\registry\src\github.com-1ecc6299db9ec823\state-0.5.3\src\shim.rs:
+C:\Users\cgbie\.cargo\registry\src\github.com-1ecc6299db9ec823\state-0.5.3\src\container.rs:
