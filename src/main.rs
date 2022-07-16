@@ -86,6 +86,16 @@ pub struct GameState {
     you: Battlesnake,
 }
 
+#[derive(Deserialize, Serialize, Debug, Clone)]
+pub struct Node {
+    gs: GameState,
+    children: Vec<Node>,
+    depth: u32,
+    score:i32,
+    snake: String,
+    dir:String
+}
+
 //Coordinate used for storing coordinates within other structs
 #[derive(Deserialize, Serialize, Debug, Clone)]
 pub struct Coord {
