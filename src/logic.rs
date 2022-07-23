@@ -35,8 +35,11 @@ fn get_random_safe_move(gs:GameState) -> &'static str{
     chosen
 }
 
-fn minimax(gs:GameState) -> &'static str{
-    return ""
+fn minimax(gs:GameState) -> String{
+    let mut new_gs = gs.clone();
+    let snakeid = new_gs.you.id.clone();
+    let tree = build_tree(new_gs,32,0,"".to_string(),snakeid);
+    return getOptimumScore(1,&tree.children).dir.clone()
 }
 
  
@@ -60,19 +63,20 @@ fn build_tree(gs: GameState,max_depth: u32, depth: u32, dir:String, snake:String
     let score = if c.len() == 0 {
         0
     } else if snake ==  gs.you.id {
-        getOptimumScore(1,&c)
+        getOptimumScore(1,&c).score
     } else {
-        getOptimumScore(0,&c)
+        getOptimumScore(0,&c).score
     };
 
     return Node {gs:gs, children:c,depth:depth,score:score, snake:snake, dir:dir}
 
 }
 
-fn getOptimumScore(opt: u32, children:&Vec<Node>) -> i32{
+fn getOptimumScore(opt: u32, children:&Vec<Node>) -> &Node{
     //Looks at children nodes and picks either the min or max score to pass up the tree
     //if opt is 0 -> minimize
     //if opt is 1 -> maximize
+    let mut opt_node = &children[0];
     let mut score = if opt == 0 {
         1000
     } else {
@@ -81,10 +85,11 @@ fn getOptimumScore(opt: u32, children:&Vec<Node>) -> i32{
     for child in children.into_iter(){
         if (opt == 0 && child.score < score) || (opt==1 && child.score > score) {
             score = child.score;
+            opt_node = child;
         }
     }
 
-    return score
+    return opt_node
 }
 
 //This function will eventually evaluate gamestates and assign a score
